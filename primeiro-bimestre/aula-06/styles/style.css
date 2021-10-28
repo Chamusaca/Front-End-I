@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+article{
+    background-image: url('https://images.alphacoders.com/806/806550.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+h1, p{
+    font-family: 'Roboto', sans-serif;
+} 
+
+h1{
+    
+    text-align: center;
+}
+
+p{
+    background-color: red;
+}
