@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div{
+    background-image: url(./sean-hudson-Mb6fj1NvKQY-unsplash.jpg);
+    background-size: cover;
+    padding: 25px 0px;
+    margin: 12px;
+    border-radius: 25px;
+    
+}
+
+button{
+   border-style: solid;
+   border-radius: 10px;
+}
+
+h1, h2{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: tomato;
+}
+
+h2{
+    margin-bottom: 8px;
+}
