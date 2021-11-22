@@ -52,56 +52,53 @@
 
                     <div>
                         <input type="radio" name="base" id="Naked">
-                        <label for="empresaX">empresaX</label>
+                        <label for="empresaX">Naked</label>
 
                         <input type="radio" name="base" id="Fubá">
-                        <label for="empresaY">empresaY</label>
+                        <label for="empresaY">Fubá</label>
                         
                         <input type="radio" name="base" id="Raw">
-                        <label for="empresaZ">empresaZ</label>
+                        <label for="empresaZ">Frugivoro</label>
+                    </div>      
+
+                    <div>
+                        <label for="userDescription">Observações</label>
+                        <textarea name="userDescription" id="userDescription"></textarea>
                     </div>
 
                     <div>
-                        <label for="userDescription">Depoimento</label>
-                        <textarea name="userDescription" id="userDescription"></textarea>
+                        <h2>Selecione o sabor do Recheio</h2>
                     </div>
+
+                    <div>
+                        <input type="radio" name="recheio" id="Naked">
+                        <label for="empresaX">Chocolate</label>
+
+                        <input type="radio" name="recheio" id="Fubá">
+                        <label for="empresaY">Morango</label>
+                        
+                        <input type="radio" name="recheio" id="Raw">
+                        <label for="empresaZ">Melancia</label>
+                    </div>      
+
                 </fieldset>
 
                 <fieldset>
                     <legend>Pagamento</legend>
-                    <div>
-                        <input type="radio" name="payment" id="credit">
-                        <label for="credit">Crédito</label>
-
-                        <input type="radio" name="payment" id="debit">
-                        <label for="debit">Débito</label>
-                        
-                        <input type="radio" name="payment" id="bill">
-                        <label for="bill">Boleto</label>
-                    </div>
 
                     <div>
-                        <label for="userPlan">Plano</label>
+                        <label for="userPlan">Pagamento</label>
                         <select name="userPlan" id="userPlan">
-                            <option value="1">Básico</option>
-                            <option value="2">Médio</option>
-                            <option value="3">Premium</option>
+                            <option value="1">Crédito</option>
+                            <option value="2">Débito</option>
+                            <option value="3">Boleto</option>
                         </select>
                     </div>
+
                 </fieldset>
 
                 <fieldset>
                     <legend>Entrega</legend>
-                    <div>
-                        <input type="radio" name="tax" id="empresaX" checked>
-                        <label for="empresaX">empresaX</label>
-
-                        <input type="radio" name="tax" id="empresaY">
-                        <label for="empresaY">empresaY</label>
-                        
-                        <input type="radio" name="tax" id="empresaZ">
-                        <label for="empresaZ">empresaZ</label>
-                    </div>
 
                     <div>
                         <label for="">Agendar Entrega</label>
@@ -110,14 +107,14 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Recomendados</legend>
+                    <legend>Embalagem</legend>
                     <div>
 
                         <input type="checkbox" name="recommended" id="firstProduct">
-                        <label for="firstProduct">Carregador</label>
+                        <label for="firstProduct">Caixa Térmica</label>
 
                         <input type="checkbox" name="recommended" id="secondProduct">
-                        <label for="secondProduct">Fone</label>
+                        <label for="secondProduct">Presente</label>
 
                     </div>
                 </fieldset>
