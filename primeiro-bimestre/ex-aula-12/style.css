@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-p::first-letter {
+
+    font-size: 30px;
+    color: saddlebrown;
+
+}
+
+.custom-textarea:focus {
+
+    background-color: aliceblue;    
+
+}
+
+.custom-input:enabled {
+
+    background-color: rgb(215, 210, 248);
+
+}
+
+.custom-input:disabled {
+
+    background-color: rgb(169, 169, 169);
+
+}
+
+.custom-checkbox:checked {
+    width: 20px;
+    height: 20px;
+}
+
+.div-button button {
+
+    width: 100px;
+    transition: 0.6s;
+}
+
+.div-button button:hover {
+
+    padding: 5px;
+
+}
+
+.div-button button:nth-child(2n) {
+    
+    font-style: italic;
+}
